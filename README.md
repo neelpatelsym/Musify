@@ -6,13 +6,13 @@ An extensive data engineering initiative involving Kafka, Spark Streaming, dbt, 
 
 ### Objective
 
-The project will stream events generated from a fake music streaming service (like Spotify) and create a data pipeline that consumes the real-time data. The data coming in would be similar to an event of a user listening to a song, navigating on the website, authenticating. The data would be processed in real-time and stored to the data lake periodically (every two minutes). The hourly batch job will then consume this data, apply transformations, and create the desired tables for our dashboard to generate analytics. We will try to analyze metrics like popular songs, active users, user demographics etc.
+The initiative involves establishing a data pipeline that captures real-time events from a simulated music streaming service, akin to platforms like Spotify. The incoming data includes events such as user song plays, website navigation, and authentication activities. This real-time data is processed and periodically stored in the data lake every two minutes. Subsequently, an hourly batch job processes this stored data, applies necessary transformations, and generates tables for our dashboard to produce analytics. The batch process will generate facts and dimension tables in form of star schema in Big Query Data Warehouse. The focus of the analysis will be on metrics such as popular songs, active users, and user demographics.
 
 ### Dataset
 
-[Eventsim](https://github.com/Interana/eventsim) is a program that generates event data to replicate page requests for a fake music web site. The results look like real use data, but are totally fake. The docker image is borrowed from [viirya's fork](https://github.com/viirya/eventsim) of it, as the original project has gone without maintenance for a few years now.
+[Eventsim](https://github.com/Interana/eventsim) is a tool designed to produce event data that simulates page requests for a fictitious music website, creating results that closely resemble authentic user data while being entirely fictional. The Docker image utilized is sourced from [viirya's fork](https://github.com/viirya/eventsim).
 
-Eventsim uses song data from [Million Songs Dataset](http://millionsongdataset.com) to generate events. I have used a [subset](http://millionsongdataset.com/pages/getting-dataset/#subset) of 10000 songs.
+Eventsim generates events using song data from the [Million Songs Dataset](http://millionsongdataset.com) and in this instance, a [subset](http://millionsongdataset.com/pages/getting-dataset/#subset) of 10,000 songs has been employed.
 
 ### Tools & Technologies
 
