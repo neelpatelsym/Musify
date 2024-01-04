@@ -20,4 +20,4 @@ SELECT
     COALESCE(song, 'NA') AS song,
     COALESCE(duration, -1) AS duration
 FROM {{ BIGQUERY_DATASET }}.{{ PAGE_VIEW_EVENTS_TABLE}}_{{ logical_date.strftime("%m%d%H") }} -- Creates a table name with month day and hour values appended to it
-                                                                                            -- like page_view_events_032313 for 23-03-2022 13:00:00
+                                                                                            -- like page_view_events_120223 for 02-12-2023 23:00:00
