@@ -81,8 +81,8 @@ docker run -it \
   --network host \
   events:1.0 \
     -c "examples/example-config.json" \
-    --start-time "2022-03-25T17:40:00" \
-    --end-time "2022-03-25T23:00:00" \
+    --start-time "2023-12-20T17:40:00" \
+    --end-time "2023-12-20T23:00:00" \
     --nusers 1000000 \
     --growth-rate 10 \
     --userid 1 \
