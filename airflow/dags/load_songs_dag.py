@@ -63,8 +63,8 @@ with DAG(
     default_args = default_args,
     description = f'Execute only once to create songs table in bigquery',
     schedule_interval="@once", #At the 5th minute of every hour
-    start_date=datetime(2023,11,30),
-    end_date=datetime(2023,12,5),
+    start_date=datetime(2023,12,20),
+    end_date=datetime(2023,12,21),
     catchup=True,
     tags=['musify']
 ) as dag:
