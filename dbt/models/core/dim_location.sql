@@ -11,7 +11,7 @@ FROM
             lat as latitude,
             lon as longitude
         FROM {{ source('staging', 'listen_events') }}
-        LEFT JOIN {{ ref('state_codes') }} on listen_events.state = TRIM(state_codes.stateCode)
+        LEFT JOIN {{ ref('state_codes') }} on TRIM(listen_events.state) = TRIM(state_codes.stateCode)
 
         UNION ALL
 
