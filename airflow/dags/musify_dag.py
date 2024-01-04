@@ -41,7 +41,7 @@ with DAG(
     default_args = default_args,
     description = f'Hourly data pipeline to generate dims and facts for musify',
     schedule_interval="5 * * * *", #At the 5th minute of every hour
-    start_date=datetime(2023,11,26,18),
+    start_date=datetime(2023,12,20,18),
     catchup=False,
     max_active_runs=1,
     user_defined_macros=MACRO_VARS,
