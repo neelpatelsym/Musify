@@ -14,7 +14,7 @@ def string_decode(s, encoding='utf-8'):
     else:
         return s
 
-def create_or_get_spark_session(app_name, master="yarn"):
+def create_or_get_spark_session(app_name, master="yarn"): # Creating a spark session
     """
     Creates or gets a Spark Session
 
