@@ -24,7 +24,7 @@ Eventsim generates events using song data from the [Million Songs Dataset](http:
 - Transformation - [**dbt**](https://www.getdbt.com)
 - Data Lake - [**Google Cloud Storage**](https://cloud.google.com/storage)
 - Data Warehouse - [**BigQuery**](https://cloud.google.com/bigquery)
-- Data Visualization - [**Data Studio**](https://datastudio.google.com/overview)
+- Data Visualization - [**Looker Studio**](https://lookerstudio.google.com/)
 - Language - [**Python**](https://www.python.org)
 
 ### Architecture
