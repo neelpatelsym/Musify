@@ -31,7 +31,7 @@ Eventsim generates events using song data from the [Million Songs Dataset](http:
 
 ![Architecture ](https://github.com/neelpdesai/Musify/assets/137664550/d4bcdbac-9610-4fec-9030-b38654237650)
 
-### Final Result
+### Data Visualization
 
 ![musify dashboard](https://github.com/neelpdesai/Musify/assets/137664550/79fbfcf5-0680-4e38-9f45-82b0b1956388)
 
