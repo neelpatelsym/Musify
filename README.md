@@ -29,20 +29,9 @@ Eventsim generates events using song data from the [Million Songs Dataset](http:
 
 ### Architecture
 
-![musify-architecture](images/Musify-Architecture.jpg)
+![Architecture ](https://github.com/neelpdesai/Musify/assets/137664550/d4bcdbac-9610-4fec-9030-b38654237650)
 
-### Final Result
+### Data Visualization
 
-![dashboard](images/dashboard.png)
-## Setup
+![musify dashboard](https://github.com/neelpdesai/Musify/assets/137664550/79fbfcf5-0680-4e38-9f45-82b0b1956388)
 
-**WARNING: You will be charged for all the infra setup. You can avail 300$ in credit by creating a new account on GCP.**
-### Pre-requisites
-
-If you already have a Google Cloud account and a working terraform setup, you can skip the pre-requisite steps.
-
-- Google Cloud Platform. 
-  - [GCP Account and Access Setup](setup/gcp.md)
-  - [gcloud alternate installation method - Windows](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup/1_terraform_gcp/windows.md#google-cloud-sdk)
-- Terraform
-  - [Setup Terraform](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup/1_terraform_gcp/windows.md#terraform)
